@@ -92,7 +92,7 @@ namespace CompInterscambioFP.Utilities
                 }
             }
             else
-                throw new FileNotFoundException("Unable to locate " + iniPath);
+                throw new FileNotFoundException("Impossibile trovare il file " + iniPath);
 
         }
 

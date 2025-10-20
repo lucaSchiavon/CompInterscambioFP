@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CompInterscambioFP.Models.CSV
+{
+    public class DatiMacchinaDto
+    {
+        public string DataOra { get; set; }
+        public string NomeRicetta { get; set; }
+        public float PezziBuoni { get; set; }
+        public float PezziScartati { get; set; }
+        public float PezziCartone { get; set; }
+        public float CartoniBuoni { get; set; }
+    }
+}
